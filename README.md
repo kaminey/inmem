@@ -12,9 +12,9 @@ A simple in memory key value database.
    7.  EXISTS <key> - return true if key exists, false otherwise.
    8.  GET <key> - fetch the value of the provided key.
    9.  DEL <key> - delete a given key from the database.
-   10.  EXP <key> <exp> - expires the given key at exp seconds from now.
-   11.  SUBSCRIBE <channel> - subscribe to the following channel [channel will be created on call to subscribe].
-   12.  PUBLISH <channel> <msg> - publish the given message to the channel.
+   10. EXP <key> <exp> - expires the given key at exp seconds from now.
+   11. SUBSCRIBE <channel> - subscribe to the following channel [channel will be created on call to subscribe].
+   12. PUBLISH <channel> <msg> - publish the given message to the channel.
 ```
   
 ## Should be thread safe and support concurrent operations.
