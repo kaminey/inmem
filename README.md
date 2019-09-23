@@ -13,7 +13,9 @@ A simple in memory key value database.
    9.  PUBLISH <channel> <msg> - publish the given message to the channel.
   
 ## Should be thread safe and support concurrent operations.
+```
    We can either choose the redis way of handling thread safety (single threaded), or locking the operation at the key level.
+ ```
   
 ## Should persist to hdd
       hdd_persist <true|false> - if true data will be flushed to hdd every <hdd_persist_freq> seconds.
