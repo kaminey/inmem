@@ -17,6 +17,6 @@ A simple in memory key value database.
 ## Should be thread safe and support concurrent operations.
    We can either choose the redis way of handling thread safety (single threaded), or locking the operation at the key level.
   
-## Should persist to hdd
+## Should persist to hdd (configuration)
       hdd_persist <true|false> - if true data will be flushed to hdd every <hdd_persist_freq> seconds.
       hdd_persist_freq <time> - Data will be flushed to hdd every <hdd_persist_freq> seconds.
